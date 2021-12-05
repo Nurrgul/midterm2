@@ -1,0 +1,241 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+main{
+	background-image: url(img/1.jpeg);
+	background-position: 0 0;
+background-repeat: no-repeat;
+background-size: 100%;
+height: 100%;
+}
+
+.link{
+	color: blue;
+	text-decoration: underline dotted;
+	position: relative;
+	left: 170px;
+}
+
+.work{
+	position: relative;
+	left: 900px;
+	text-decoration: none;
+	color: blue;
+}
+.header{
+	background-color: white;
+	height: 30px;
+}
+.logo_img{
+	position: relative;
+	left: 162px;
+	top: 52px;
+	height: 70px;
+	width: 90px;
+}
+.resume{
+position: relative;
+left: 857px;
+top: 5px;
+}
+
+.workers, .help{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	position: relative;
+	left: 180px;
+	top: 25px;
+	margin: 15px;
+}
+
+.workers:hover, .help:hover, .work:hover, .I:hover, .link:hover, .name_company:hover{
+	color: red;
+}
+
+.resume__make{
+	border: 1px solid #afe89e;
+	text-decoration: none;
+	color: #afe89e;
+	border-radius: 50px;
+    margin: 10px;
+    font-size: 17px;
+    width: 200px;
+    padding: 8px;
+}
+.resume__login{
+	border: 1px solid white;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	font-size: 17px;
+	width: 210px;
+    padding: 8px;
+}
+
+.job{
+	position: relative;
+	left: 170px;
+	top: 105px;
+	font-size: 20px;
+	color: white;
+}
+.search{
+	background-color: white;
+	color: black;
+	width: 600px;
+	height: 40px;
+	font-size: 20px;
+
+}
+.submit{
+	position: relative;
+	right: 9px;
+	font-size: 18px;
+	background-color: #4f9ae0;
+	color: white;
+	height: 50px;
+	width: 200px;
+}
+.I{
+	position: relative;
+	top: 3px;
+	color: white;
+}
+table{
+	position: relative;
+	left: 150px;
+	top: 250px;
+	color: white;
+	font-size: 25px;
+
+}
+td, th{
+	padding: 8px;
+}
+.work_vacancy{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    position: relative;
+    left: 150px;
+    top: 350px;
+    }
+.work-item{
+    width: 300px;
+	height: 100px;
+    background-color: white;
+    border-left: solid #f08b8b 10px;
+	border-top: solid 1px #adacac;
+	border-right:  solid 1px #adacac;
+	border-bottom: solid 1px #adacac;
+    margin: 16px 12px;
+ }
+.work-item:hover {
+    transform:translateY(-2px);
+    box-shadow:0 6px 0 rgba(107,127,153,0.5);
+}
+.work-item:active {
+    transform:translateY(4px);
+    box-shadow:0 0 0 rgba(107,127,153,0.5);
+}
+#orange{
+border-left: solid #f5dda6  10px;
+}
+#yellow{
+	border-left: solid #faf8c5 10px;
+}
+#green{
+	border-left: solid #c4f7c3 10px;
+}
+#blue{
+	border-left: solid #cdf7f7 10px;
+}
+#purple{
+	border-left: solid #f4d2f7 10px;
+}
+
+.more_vacancy{
+	position: relative;
+    left: 150px;
+    top: 350px;
+ }
+
+.name_company{
+	text-decoration: none;
+	color: black;
+}
+
+.company{
+	position: relative;
+	left: 165px;
+	top: 350px;
+}
+.company_two{
+	position: relative;
+	left: 500px;
+	top: 45px;
+}
+.resume_img{
+	position: relative;
+	left: 800px;
+	bottom: 260px;
+}
+.vacancy{
+	position: relative;
+	left: 165px;
+	bottom: 470px;
+	line-height: 0.5em;
+	font-size: 15px;
+}
+.vacancy_day_company{
+	color: #adacad;
+}
+
+.vacancy_two{
+	position: relative;
+	left: 500px;
+	bottom: 1065px;
+	line-height: 0.5em;
+	font-size: 15px;
+}
+.footer_hunter{
+	position: relative;
+	left: 165px;
+	color: white;
+	font-size: 15px;
+	line-height: 0.5em;
+	top: 40px;
+}
+.footer{
+	background-color: #212121;
+	position: relative;
+	top: 1600px;
+	height: 400px;
+}
+.footer_two{
+	position: relative;
+	left: 360px;
+	top: 1200px;
+}
+.footer_three{
+	position: relative;
+	top: 1106px;
+	left: 670px;
+}
+.red_logo{
+	height: 50px;
+	width: 50px;
+	position: relative;
+	left: 1100px;
+	top: 1000px;
+}
+
+#chef {
+      position: relative;
+      cursor: pointer;
+    }
